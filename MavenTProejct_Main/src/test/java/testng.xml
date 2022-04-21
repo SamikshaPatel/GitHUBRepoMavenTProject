@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SanityTestCaseSuite1">
+	
+	<listeners>  
+		<listener class-name= "com.SuretyCloud.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+  <test name="SanityTest">
+    
+      <classes>
+      	 <class name="com.SuretyCloud.qa.testcases.LoginPage_Test"/>
+      	<!--  <class name="com.SuretyCloud.qa.testcases.HomePage_Test"/>  -->
+        <!--  <class name="com.SuretyCloud.qa.testcases.CreateNewBond_Step123_Test"/>  -->
+        <!--  <class name="com.SuretyCloud.qa.testcases.CreateNBOffer_Test"/>   -->    
+      </classes>
+  
+  </test>  
+   
+ <!-- <test name="FeatureTest">    
+    
+     <parameter name="emailid" value="tester789@gmail.com"/>
+    
+    <classes>
+    	<class name="com.SuretyCloud.qa.testcases.LoginPage_Test"/>
+    	<class name="com.SuretyCloud.qa.testcases.CreateNewBond_Step123_Test"/>
+    </classes>
+     
+  </test> -->
+</suite> 

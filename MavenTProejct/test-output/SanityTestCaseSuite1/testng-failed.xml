@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SanityTestCaseSuite1]">
+  <listeners>
+    <listener class-name="com.SuretyCloud.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="SanityTest(failed)">
+    <classes>
+      <class name="com.SuretyCloud.qa.testcases.CreateNewBondTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="CreateNewBond" invocation-numbers="0 4"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.SuretyCloud.qa.testcases.CreateNewBondTest -->
+    </classes>
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [SanityTestCaseSuite1] -->
